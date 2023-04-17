@@ -97,11 +97,21 @@ footer {
   flex-flow: row wrap;
 }
 
+header {
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
 header .content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  margin: 0;
+}
+
+.header-divider {
+  width: 90%;
 }
 
 header nav {
@@ -109,11 +119,24 @@ header nav {
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
+  width: 60%;
+  padding-top: 15px;
+  padding-bottom: 20px;
 }
 
 header nav ul {
   display: flex;
   justify-content: space-around;
+  width: 100%;
+}
+
+footer {
+  padding-top: 50px;
+}
+
+footer .content-wrapper {
+  width: 55%;
+  margin: 50px 0;
 }
 
 footer .social-icons {
@@ -128,6 +151,16 @@ footer .social-icons p {
   align-items: center;
 }
 
+footer p {
+  margin: 0;
+}
+
+/* -------------------- Universal Styles ---------------------------- */
+
+.content-wrapper {
+  width: 90%;
+}
+
 
 /* -------------------- Mobile Styles - Homepage -------------------- */
 
@@ -137,6 +170,7 @@ footer .social-icons p {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  padding: 50px 0;
 }
 
 /* Aside */
@@ -146,6 +180,7 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  padding: 50px 0;
 }
 
 /* Features */
@@ -154,6 +189,7 @@ aside {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  padding: 50px 0;
 }
 
 .features .features-items {
@@ -163,12 +199,25 @@ aside {
   flex-flow: row wrap;
 }
 
+.features article {
+  width: 60%;
+}
+
+.features p {
+  margin: 0;
+}
+
 /* Reviews */
 
 .reviews {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  padding: 50px 0;
+}
+
+.reviews h3 {
+  width: 55%;
 }
 
 /* ==========================================================================
